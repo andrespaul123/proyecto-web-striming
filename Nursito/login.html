@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <script src="https://kit.fontawesome.com/8ec641610f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <form>
+        <div class="back">
+            <a href="sesion.html"><i class="fas fa-angle-left"></i> Volver</a>
+        </div>
+        <div class="title">
+            <h1>Login</h1>
+        </div>
+        <div class="txt_field">
+            <input type="text" id="inputUsername" placeholder="Ingrese su nombre de usuario">
+            <span></span>
+            <label>Usuario</label>
+        </div>
+        <div class="err-msg" id="validation-username" style="display: none;">
+            Debe ingresar su nombre de usuario
+        </div>
+        <div class="txt_field">
+            <input type="password" id="inputPassword" placeholder="Ingrese su contraseña" autocomplete="on">
+            <span></span>
+            <label>Contraseña</label>
+        </div>
+
+        <div class="err-msg" id="validation-password" style="display: none;">
+            Debe ingresar su contraseña
+        </div>
+
+        <div class="alert" id="msg-error-login" style="display: none" role="alert"></div>
+
+        <button id="btn-login" class="btn" type="button">Ingresar</button>
+        <div class="signup_link">
+            ¿No estas registrado? <a href="singUp.html">Registrarme</a>
+        </div>
+    </form>
+    <!-- <script src="assets/js/login.js"></script>
+    <script src="assets/js/crearusuario.js"></script> -->
+
+
+
+
+</body>
+
+
+<script>
+    const cors = Require('cors');
+    app.use(cors());
+    window.onload = function() {
+
+
+        Obtener();
+    };
+
+
+    function Obtener() {
+
+
+        window.alert("hola");
+
+        $.get("http://localhost:50567/api/usuario/")
+            //     .done(function(response) {
+            //         console.log(response);
+            // $.each( response, function( id, fila ) {
+            //     $("<tr>").append(
+            //         $("<td>").text(fila.IdUsuario),
+            //         $("<td>").text(fila.DocumentoIdentidad),
+            //         $("<td>").text(fila.Nombres),
+            //         $("<td>").text(fila.Telefono),
+            //         $("<td>").text(fila.Correo),
+            //         $("<td>").text(fila.Ciudad),
+            //         $("<td>").append(
+            //             $("<button>").data("id",fila.IdUsuario).addClass("btn btn-success btn-sm mr-1 editar").text("Editar").attr({"type":"button"}),
+            //             $("<button>").data("id",fila.IdUsuario).addClass("btn btn-danger btn-sm eliminar").text("Eliminar").attr({"type":"button"})
+            //         )
+            //     ).appendTo(".table");
+            // });
+            // });
+    }
+</script>
+
+</html>

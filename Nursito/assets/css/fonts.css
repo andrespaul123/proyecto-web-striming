@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'SourceSansproblack';
+    src: url('fonts/SourceSansPro-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansbold';
+    src: url('fonts/SourceSansPro-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Latoregular';
+    src: url('fonts/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'sourcessansprobold';
+    src: url('fonts/PT_Sans-Web-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'sourcessanslight';
+    src: url('fonts/SourceSansPro-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'sourcesansproregular';
+    src: url('fonts/SourceSansPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face{
+    font-family:'sourcesssanprobold';
+    src: url('fonts/SourceSansPro-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'sourcesansproregular';
+    src: url('fonts/SourceSansPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceSansproblack';
+    src: url('fonts/SourceSansPro-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

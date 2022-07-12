@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    background: RGB(13, 13, 12);
+    font-family: 'sourcesansproregular';
+}
+
+.img-logo-capitulos {
+    background-image: url(../images/movies/5supercampeones.jpg);
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.contenedor1 {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 30px 0;
+}
+
+
+/* parte del inicio series mas reciente*/
+
+header .contenedor1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logotipo {
+    font-family: 'sourcesansproregular';
+    font-weight: normal;
+    color: hsl(45, 100%, 54%);
+    font-size: 40px;
+}
+
+header nav a {
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    color: hsl(45, 100%, 54%);
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.boton {
+    background: RGB(13, 13, 12);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.img-logo-capitulos .contenedor {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.boton:hover {
+    background: hsl(45, 100%, 54%);
+    color: #000;
+}
+
+.img-logo-capitulos3 .boton i {
+    margin-right: 1.25em;
+}
+
+.img-logo-capitulos {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+#lista-episodios {
+    list-style-type: none;
+}
+
+
+/* colocacion de mis imagenes en pociciones con los capitulos  */
+
+.text-white {
+    color: #fff;
+    font-size: 20px;
+}
+
+.row .text-white {
+    text-align: left;
+    font-size: 18px;
+    padding: auto;
+    margin-top: auto;
+    color: #fff;
+}
+
+.text-descripcion {
+    color: #fff;
+    font-size: 15px;
+}
+
+.row-episodios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@media screen and (max-width: 800px) {
+    header .logotipo {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    header .contenedor1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-logo-capitulos {
+        font-size: 14px;
+    }
+    .descripcion {
+        max-width: 100%;
+    }
+}
